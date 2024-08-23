@@ -1,26 +1,9 @@
-# Mina zkApp: O1js 1411
+# Issue 1411
 
-This template uses TypeScript.
+Repro of issue where verifying a proof from serialized file hangs
 
-## How to build
+## Steps
 
-```sh
-npm run build
-```
+To run the example, simply build the project and run
 
-## How to run tests
-
-```sh
-npm run test
-npm run testw # watch mode
-```
-
-## How to run coverage
-
-```sh
-npm run coverage
-```
-
-## License
-
-[Apache-2.0](LICENSE)
+`npm run build && node build/src/test.js`
