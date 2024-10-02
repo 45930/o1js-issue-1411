@@ -1,4 +1,4 @@
-import { Bool, Cache, verify, ZkProgram } from 'o1js';
+import { Bool, Cache, Provable, UInt32, verify, ZkProgram } from 'o1js';
 
 //  v-- Change to `true` to fix the hang, even though NoopProgram != VerifyMeProgram.
 if (false) {
